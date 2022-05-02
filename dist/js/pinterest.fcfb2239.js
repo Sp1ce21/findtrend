@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfindtrend"]=self["webpackChunkfindtrend"]||[]).push([[668],{7726:function(e,t,n){n.r(t),n.d(t,{default:function(){return f}});var r=n(3396);const s={src:"https://assets.pinterest.com/ext/embed.html?id=5699937019757638",height:"618",width:"345",frameborder:"0",scrolling:"no"};function i(e,t,n,i,c,d){return(0,r.wg)(),(0,r.iD)("iframe",s)}var c=(0,r.aZ)({}),d=n(89);const a=(0,d.Z)(c,[["render",i]]);var f=a}}]);
+//# sourceMappingURL=pinterest.fcfb2239.js.map

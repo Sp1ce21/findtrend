@@ -1,18 +1,53 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <div class="main__screen">
+      <div class="container__1280">
+        <header-component />
+        <title-component />
+      </div>
+    </div>
+    <instruction-section />
+    <companies-section />
+    <posts-section />
+    <price-component />
+    <join-us />
+    <footer-component/>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import TitleComponent from "@/components/TitleComponent.vue";
+import InstructionSection from "@/components/InstructionSection.vue";
+import { defineComponent } from "vue";
+import CompaniesSection from "@/components/CompaniesSection.vue";
+import PostsSection from "@/components/PostsSection.vue";
+import PriceComponent from "@/components/PriceComponent.vue";
+import JoinUs from "@/components/JoinUs.vue";
+import FooterComponent from '@/components/FooterComponent.vue'
 export default defineComponent({
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld,
+    HeaderComponent,
+    TitleComponent,
+    InstructionSection,
+    CompaniesSection,
+    PostsSection,
+    PriceComponent,
+    JoinUs,
+    FooterComponent
   },
 });
 </script>
+
+<style scoped>
+.home {
+  max-width: 100vw;
+  overflow: hidden;
+}
+.main__screen {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/pngs/background.png");
+}
+</style>

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfindtrend"]=self["webpackChunkfindtrend"]||[]).push([[766],{9504:function(n,e,r){function t(n,e,r,t,u,f){return"facebook"}r.r(e),r.d(e,{default:function(){return d}});var u=r(3396),f=(0,u.aZ)({}),c=r(89);const a=(0,c.Z)(f,[["render",t]]);var d=a}}]);
+//# sourceMappingURL=facebook.4a61bc63.js.map

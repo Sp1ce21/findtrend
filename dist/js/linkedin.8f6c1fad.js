@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfindtrend"]=self["webpackChunkfindtrend"]||[]).push([[546],{3565:function(e,n,t){t.r(n),t.d(n,{default:function(){return u}});var r=t(3396);const d={src:"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6923299467391643648",height:"509",width:"504",frameborder:"0",title:"Встроенная публикация",class:"linkedin"};function i(e,n,t,i,c,a){return(0,r.wg)(),(0,r.iD)("iframe",d)}var c=(0,r.aZ)({}),a=t(89);const s=(0,a.Z)(c,[["render",i],["__scopeId","data-v-d5cc28b8"]]);var u=s}}]);
+//# sourceMappingURL=linkedin.8f6c1fad.js.map
